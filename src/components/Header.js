@@ -8,20 +8,14 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <LinkContainer to="/AboutYou">
-            <Nav.Link>About You</Nav.Link>
+          <LinkContainer to="/ux-ui">
+            <Nav.Link>UX / UI</Nav.Link>
           </LinkContainer>
-
-          <LinkContainer to="/AboutAginic">
-            <Nav.Link>About Aginic</Nav.Link>
+          <LinkContainer to="/branding">
+            <Nav.Link>Branding</Nav.Link>
           </LinkContainer>
-
-          <LinkContainer to="/Roadmap">
-            <Nav.Link>Roadmap</Nav.Link>
-          </LinkContainer>
-
-          <LinkContainer to="/Resources">
-            <Nav.Link>Resources</Nav.Link>
+          <LinkContainer to="/illustrations">
+            <Nav.Link>Illustrations</Nav.Link>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>
