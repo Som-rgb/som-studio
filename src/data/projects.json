@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Project 1",
+    "category": "UI/UX",
+    "title": "Project 1 Title",
+    "image": "Project 1 Image",
+    "link": "Project 1 Link"
+  },
+  {
+    "name": "Project 2",
+    "category": "Branding",
+    "title": "Project 2 Title",
+    "image": "Project 2 Image",
+    "link": "Project 2 Link"
+  },
+  {
+    "name": "Project 1",
+    "category": "Illustrations",
+    "title": "Project 1 Title",
+    "image": "Project 3 Image",
+    "link": "Project 4 Link"
+  }
+]
