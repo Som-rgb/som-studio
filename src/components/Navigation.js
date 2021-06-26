@@ -9,7 +9,7 @@ const Navigation = () => {
       <Navbar>
         <Navbar.Brand href="/home">Home</Navbar.Brand>
         <Container>
-          <Nav class=" d-flex ms-auto">
+          <Nav className=" d-flex ms-auto">
             <LinkContainer to="/ux-ui">
               <Nav.Link>UX / UI</Nav.Link>
             </LinkContainer>

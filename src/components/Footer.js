@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <Navbar fixed="bottom">
         <Container>
-          <Nav class=" d-flex me-auto">
+          <Nav className=" d-flex me-auto">
             <LinkContainer to="https://www.google.com">
               <Nav.Link>EMAIL</Nav.Link>
             </LinkContainer>
