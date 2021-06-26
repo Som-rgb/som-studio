@@ -16,7 +16,19 @@ const ProjectTile = (props) => {
         return (
           <div key={project.key}>
             <Container>
-              <Link to={project.link}>
+              <Link
+                to={{
+                  pathname: "/project",
+                  state: {
+                    projectCategory: project.category,
+                    projectNum: project.key,
+                    projectTotalNum: projectListLength,
+                    projectTitle: project.title,
+                    projectBlurb: project.blurb,
+                    project: { projectList },
+                  },
+                }}
+              >
                 <Row>
                   <Col>
                     <Row>
