@@ -1,12 +1,12 @@
 import React from "react";
 import ProjectTile from "./components/ProjectTile.js";
 
-const UXUI = () => {
+const Photo = () => {
   return (
     <>
-      <ProjectTile projectFilter="UI/UX" />
+      <ProjectTile projectFilter="Photo" />
     </>
   );
 };
 
-export default UXUI;
+export default Photo;

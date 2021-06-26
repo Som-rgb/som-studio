@@ -1,23 +1,58 @@
 [
   {
-    "name": "Project 1",
+    "key": "Project 1",
     "category": "UI/UX",
+    "title": "Project 1 Title",
+    "blurb": "Project 1 Blurb",
+    "image": "Project 1 Image",
+    "link": "Project 1 Link"
+  },
+  {
+    "key": "Project 1",
+    "category": "Branding",
+    "title": "Project 1 Title",
+    "blurb": "Project 1 Blurb",
+    "image": "Project 1 Image",
+    "link": "/Project"
+  },
+  {
+    "key": "Project 2",
+    "category": "Branding",
+    "title": "Project 2 Title",
+    "blurb": "Project 2 Blurb",
+    "image": "Project 2 Image",
+    "link": "Project 2 Link"
+  },
+  {
+    "key": "Project 1",
+    "category": "Illustration",
+    "blurb": "Project 1 Blurb",
     "title": "Project 1 Title",
     "image": "Project 1 Image",
     "link": "Project 1 Link"
   },
   {
-    "name": "Project 2",
-    "category": "Branding",
+    "key": "Project 1",
+    "category": "Photo",
+    "blurb": "Project 1 Blurb",
+    "title": "Project 1 Title",
+    "image": "Project 1 Image",
+    "link": "Project 1 Link"
+  },
+  {
+    "key": "Project 2",
+    "category": "Photo",
+    "blurb": "Project 2 Blurb",
     "title": "Project 2 Title",
     "image": "Project 2 Image",
     "link": "Project 2 Link"
   },
   {
-    "name": "Project 1",
-    "category": "Illustrations",
-    "title": "Project 1 Title",
+    "key": "Project 3",
+    "category": "Photo",
+    "blurb": "Project 3 Blurb",
+    "title": "Project 3 Title",
     "image": "Project 3 Image",
-    "link": "Project 4 Link"
+    "link": "Project 3 Link"
   }
 ]

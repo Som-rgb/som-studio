@@ -1,7 +1,12 @@
 import React from "react";
+import ProjectTile from "./components/ProjectTile.js";
 
-function Branding() {
-  return <div>Hello</div>;
-}
+const Branding = () => {
+  return (
+    <>
+      <ProjectTile projectFilter="Branding" />
+    </>
+  );
+};
 
 export default Branding;
