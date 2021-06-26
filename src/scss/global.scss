@@ -1,0 +1,23 @@
+// Header fonts
+@font-face {
+  font-family: DM-Serif-Display;
+  src: url(../fonts/dm-serif-display-regular.woff2),
+    url(../fonts/dm-serif-display-regular.woff);
+  font-style: normal;
+  font-weight: 600;
+}
+
+//Body fonts
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Light.woff2), url(../fonts/Roboto-Light.woff);
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.woff2), url(../fonts/Roboto-Regular.woff);
+  font-style: normal;
+  font-weight: 400;
+}
