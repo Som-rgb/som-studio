@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import Header from "./Header.js";
 
@@ -7,12 +7,9 @@ const Navigation = () => {
   return (
     <>
       <Navbar>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav>
-            <LinkContainer to="/home">
-              <Nav.Link>HOME</Nav.Link>
-            </LinkContainer>
+        <Navbar.Brand href="/home">Home</Navbar.Brand>
+        <Container>
+          <Nav class=" d-flex ms-auto">
             <LinkContainer to="/ux-ui">
               <Nav.Link>UX / UI</Nav.Link>
             </LinkContainer>
@@ -26,7 +23,7 @@ const Navigation = () => {
               <Nav.Link>PHOTO</Nav.Link>
             </LinkContainer>
           </Nav>
-        </Navbar.Collapse>
+        </Container>
       </Navbar>
       <Header />
     </>

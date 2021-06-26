@@ -4,19 +4,21 @@ import { Row, Col, Container } from "react-bootstrap";
 const Footer = () => {
   return (
     <>
-      <Container className="footer">
+      <Container fixed="bottom">
         <Row>
-          <Col>
+          <Col md={2}>
             <a href="https://www.google.com">EMAIL</a>
           </Col>
 
-          <Col>
+          <Col md={2}>
             <a href="https://www.google.com">DRIBBLE</a>
           </Col>
-          <Col>
+
+          <Col md={2}>
             <a href="https://www.google.com">INSTAGRAM</a>
           </Col>
-          <Col>2021</Col>
+
+          <Col className="d-flex justify-content-md-right">2021</Col>
         </Row>
       </Container>
     </>

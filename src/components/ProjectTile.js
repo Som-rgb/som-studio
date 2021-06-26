@@ -18,15 +18,18 @@ const ProjectTile = (props) => {
             <Container>
               <Link to={project.link}>
                 <Row>
-                  <Col>
+                  <Col md={10}>
                     <Row>
                       <div>
-                        {project.title} {project.key}/{projectListLength}
+                        <h2>{project.title}</h2>
+                        <h4>
+                          {project.key}/{projectListLength}
+                        </h4>
                       </div>
                     </Row>
-                    <div>{project.blurb}</div>
+                    <p>{project.blurb}</p>
                   </Col>
-                  <Col>
+                  <Col md={2}>
                     <div>{project.image}</div>
                   </Col>
                   <hr></hr>
