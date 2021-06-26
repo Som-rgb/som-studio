@@ -7,6 +7,7 @@ import UXUI from "./UXUI.js";
 import Branding from "./Branding.js";
 import Illustration from "./Illustration.js";
 import Photo from "./Photo.js";
+import Project from "./Project.js";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route exact path="/branding" component={Branding} />
           <Route exact path="/illustration" component={Illustration} />
           <Route exact path="/photo" component={Photo} />
+          <Route exact path="/project" component={Project} />
           <Route path="/" component={Home} />
         </Switch>
       </Router>

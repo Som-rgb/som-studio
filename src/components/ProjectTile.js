@@ -16,21 +16,22 @@ const ProjectTile = (props) => {
         return (
           <div key={project.key}>
             <Container>
-              <Row>
-                <Col>
-                  <Row>
-                    <div>
-                      {project.title} {project.key}/{projectListLength}
-                    </div>
-                  </Row>
-                  <div>{project.blurb}</div>
-                  <Link to={project.link}>React</Link>
-                </Col>
-                <Col>
-                  <div>{project.image}</div>
-                </Col>
-                <hr></hr>
-              </Row>
+              <Link to={project.link}>
+                <Row>
+                  <Col>
+                    <Row>
+                      <div>
+                        {project.title} {project.key}/{projectListLength}
+                      </div>
+                    </Row>
+                    <div>{project.blurb}</div>
+                  </Col>
+                  <Col>
+                    <div>{project.image}</div>
+                  </Col>
+                  <hr></hr>
+                </Row>
+              </Link>
             </Container>
           </div>
         );
