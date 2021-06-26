@@ -4,15 +4,11 @@ import { Link } from "react-router-dom";
 import { Row, Col, Container } from "react-bootstrap";
 
 const ProjectTile = (props) => {
-  console.log(props.projectFilter);
-
   const projectList = projects.filter(
     (project) => project.category === props.projectFilter
   );
 
   const projectListLength = projectList.length;
-
-  console.log(projectListLength);
 
   return (
     <div>
