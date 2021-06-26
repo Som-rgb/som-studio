@@ -1,6 +1,6 @@
 [
   {
-    "key": "Project 1",
+    "key": "1",
     "category": "UI/UX",
     "title": "Project 1 Title",
     "blurb": "Project 1 Blurb",
@@ -8,7 +8,7 @@
     "link": "Project 1 Link"
   },
   {
-    "key": "Project 1",
+    "key": "1",
     "category": "Branding",
     "title": "Project 1 Title",
     "blurb": "Project 1 Blurb",
@@ -16,7 +16,7 @@
     "link": "/project"
   },
   {
-    "key": "Project 2",
+    "key": "2",
     "category": "Branding",
     "title": "Project 2 Title",
     "blurb": "Project 2 Blurb",
@@ -24,7 +24,7 @@
     "link": "Project 2 Link"
   },
   {
-    "key": "Project 1",
+    "key": "1",
     "category": "Illustration",
     "blurb": "Project 1 Blurb",
     "title": "Project 1 Title",
@@ -32,7 +32,7 @@
     "link": "Project 1 Link"
   },
   {
-    "key": "Project 1",
+    "key": "1",
     "category": "Photo",
     "blurb": "Project 1 Blurb",
     "title": "Project 1 Title",
@@ -40,7 +40,7 @@
     "link": "Project 1 Link"
   },
   {
-    "key": "Project 2",
+    "key": "2",
     "category": "Photo",
     "blurb": "Project 2 Blurb",
     "title": "Project 2 Title",
@@ -48,7 +48,7 @@
     "link": "Project 2 Link"
   },
   {
-    "key": "Project 3",
+    "key": "3",
     "category": "Photo",
     "blurb": "Project 3 Blurb",
     "title": "Project 3 Title",
