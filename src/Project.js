@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Project = () => {
   let location = useLocation();
@@ -40,16 +41,22 @@ const Project = () => {
 
   return (
     <>
-      <div>
-        {projectCategory} / {projectTitle}
-      </div>
-      <button onClick={handleButtonBack}>Back</button>
-      <div>
-        {projectNum} / {projectTotalNum}
-      </div>
-      <button onClick={handleButtonForward}>Forward</button>
-      <div>{projectTitle}</div>
-      <div>{projectBlurb}</div>
+      <Container>
+        <Row>
+          <Col className="d-flex ms-auto" md={10}>
+            {projectCategory} / {projectTitle}
+          </Col>
+          <Col className="d-flex me-auto" md={2}>
+            <button onClick={handleButtonBack}>Back</button>
+            {projectNum} / {projectTotalNum}
+            <button onClick={handleButtonForward}>Forward</button>
+          </Col>
+          <Col>
+            <div>{projectTitle}</div>
+            <div>{projectBlurb}</div>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 };
