@@ -1,26 +1,26 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Footer = () => {
   return (
     <>
-      <Container fixed="bottom">
-        <Row>
-          <Col md={2}>
-            <a href="https://www.google.com">EMAIL</a>
-          </Col>
-
-          <Col md={2}>
-            <a href="https://www.google.com">DRIBBLE</a>
-          </Col>
-
-          <Col md={2}>
-            <a href="https://www.google.com">INSTAGRAM</a>
-          </Col>
-
-          <Col className="d-flex justify-content-md-right">2021</Col>
-        </Row>
-      </Container>
+      <Navbar fixed="bottom">
+        <Container>
+          <Nav class=" d-flex me-auto">
+            <LinkContainer to="https://www.google.com">
+              <Nav.Link>EMAIL</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="https://www.google.com">
+              <Nav.Link>DRIBBLE</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="https://www.google.com">
+              <Nav.Link>INSTAGRAM</Nav.Link>
+            </LinkContainer>
+          </Nav>
+        </Container>
+        <Navbar.Brand>2021</Navbar.Brand>
+      </Navbar>
     </>
   );
 };
