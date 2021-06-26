@@ -1,19 +1,25 @@
 import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <div>
-      <div>
-        <a href="https://www.google.com">EMAIL</a>
-      </div>
-      <div>
-        <a href="https://www.google.com">DRIBBLE</a>
-      </div>
-      <div>
-        <a href="https://www.google.com">INSTAGRAM</a>
-      </div>
-      <div>2021</div>
-    </div>
+    <>
+      <Container className="footer">
+        <Row>
+          <Col>
+            <a href="https://www.google.com">EMAIL</a>
+          </Col>
+
+          <Col>
+            <a href="https://www.google.com">DRIBBLE</a>
+          </Col>
+          <Col>
+            <a href="https://www.google.com">INSTAGRAM</a>
+          </Col>
+          <Col>2021</Col>
+        </Row>
+      </Container>
+    </>
   );
 };
 

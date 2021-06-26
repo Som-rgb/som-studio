@@ -1,7 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import Navigation from "./components/Navigation.js";
 import Footer from "./components/Footer.js";
+
 import Home from "./Home.js";
 import UXUI from "./UXUI.js";
 import Branding from "./Branding.js";
