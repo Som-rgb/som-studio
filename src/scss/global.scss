@@ -21,3 +21,24 @@
   font-style: normal;
   font-weight: 400;
 }
+
+//Fonts
+p {
+  font-size: $font-size-base * 1.6;
+}
+
+// Card
+.card {
+  border: none;
+}
+
+// Footer
+.end-nav {
+  border-left: 1px #000;
+}
+
+// Buttons
+.arrow {
+  background-color: #fff;
+  border: none;
+}

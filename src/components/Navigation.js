@@ -7,18 +7,25 @@ const Navigation = () => {
   return (
     <>
       <Navbar>
-        <Navbar.Brand href="/home">Home</Navbar.Brand>
-        <Container>
-          <Nav className=" d-flex ms-auto">
+        <Container className="border-bottom border-dark">
+          <Nav className="d-flex me-auto">
+            <LinkContainer to="/home">
+              <Nav.Link className="border-end border-dark">HOME</Nav.Link>
+            </LinkContainer>
+          </Nav>
+          <Nav className="d-flex ms-auto">
             <LinkContainer to="/ux-ui">
               <Nav.Link>UX / UI</Nav.Link>
             </LinkContainer>
+
             <LinkContainer to="/branding">
               <Nav.Link>BRANDING</Nav.Link>
             </LinkContainer>
+
             <LinkContainer to="/illustration">
               <Nav.Link>ILLUSTRATION</Nav.Link>
             </LinkContainer>
+
             <LinkContainer to="/photo">
               <Nav.Link>PHOTO</Nav.Link>
             </LinkContainer>

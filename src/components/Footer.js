@@ -5,9 +5,9 @@ import { LinkContainer } from "react-router-bootstrap";
 const Footer = () => {
   return (
     <>
-      <Navbar fixed="bottom">
-        <Container>
-          <Nav className=" d-flex me-auto">
+      <Navbar>
+        <Container className=" border-top border-dark fixed-bottom">
+          <Nav className="d-flex me-auto">
             <LinkContainer to="https://www.google.com">
               <Nav.Link>EMAIL</Nav.Link>
             </LinkContainer>
@@ -18,8 +18,12 @@ const Footer = () => {
               <Nav.Link>INSTAGRAM</Nav.Link>
             </LinkContainer>
           </Nav>
+          <Nav className="d-flex ms-auto justify-content-center">
+            <LinkContainer to="/home">
+              <Nav.Link className="border-start border-dark">2021</Nav.Link>
+            </LinkContainer>
+          </Nav>
         </Container>
-        <Navbar.Brand>2021</Navbar.Brand>
       </Navbar>
     </>
   );
