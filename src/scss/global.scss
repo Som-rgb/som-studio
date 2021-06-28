@@ -22,6 +22,10 @@
   font-weight: 400;
 }
 
+body {
+  background: linear-gradient(135deg, #e66465 10%, #9198e5);
+}
+
 //Fonts
 p {
   font-size: $font-size-base * 1.6;
@@ -30,6 +34,7 @@ p {
 // Card
 .card {
   border: none;
+  background-color: rgba(255, 255, 255, 0.9%);
 }
 
 // Footer
@@ -39,6 +44,6 @@ p {
 
 // Buttons
 .arrow {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9%);
   border: none;
 }
