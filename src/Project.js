@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 
+import Forward from "./images/Forward.svg";
+import Back from "./images/Back.svg";
+
 const Project = () => {
   let location = useLocation();
   const [projectNum, setProjectNum] = useState(
@@ -42,18 +45,24 @@ const Project = () => {
   return (
     <>
       <Container>
-        <Row>
-          <Col className="d-flex ms-auto" md={10}>
+        <Row className="border-bottom border-dark">
+          <Col className="d-flex ms-auto" md={9}>
             {projectCategory} / {projectTitle}
           </Col>
-          <Col className="d-flex me-auto" md={2}>
-            <button onClick={handleButtonBack}>Back</button>
+          <Col className="d-flex me-auto justify-content-end" md={3}>
+            <button className="arrow" onClick={handleButtonBack}>
+              <img src={Back} />
+            </button>
             {projectNum} / {projectTotalNum}
-            <button onClick={handleButtonForward}>Forward</button>
+            <button className="arrow" onClick={handleButtonForward}>
+              <img src={Forward} />
+            </button>
           </Col>
+        </Row>
+        <Row>
           <Col>
-            <div>{projectTitle}</div>
-            <div>{projectBlurb}</div>
+            <h2>{projectTitle}</h2>
+            <p>{projectBlurb}</p>
           </Col>
         </Row>
       </Container>
