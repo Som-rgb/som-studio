@@ -51,11 +51,11 @@ const Project = () => {
           </Col>
           <Col className="d-flex me-auto justify-content-end" md={3}>
             <button className="arrow" onClick={handleButtonBack}>
-              <img src={Back} />
+              <img src={Back} alt="Previous project" />
             </button>
             {projectNum} / {projectTotalNum}
             <button className="arrow" onClick={handleButtonForward}>
-              <img src={Forward} />
+              <img src={Forward} alt="Next project" />
             </button>
           </Col>
         </Row>

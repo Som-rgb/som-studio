@@ -1,7 +1,7 @@
 import React from "react";
 import projects from "./../data/projects.json";
 import { Link } from "react-router-dom";
-import { Row, Col, Container, Card } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 
 const ProjectTile = (props) => {
   const projectList = projects.filter(
