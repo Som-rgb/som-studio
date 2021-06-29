@@ -26,6 +26,7 @@ const ProjectTile = (props) => {
                       projectTotalNum: projectListLength,
                       projectTitle: project.title,
                       projectBlurb: project.blurb,
+                      projectImage: project.image,
                       project: { projectList },
                     },
                   }}
@@ -51,7 +52,11 @@ const ProjectTile = (props) => {
                       <p>{project.blurb}</p>
                     </Col>
                     <Col md={5}>
-                      <div>{project.image}</div>
+                      <img
+                        src={`${project.image}`}
+                        alt={project.title}
+                        key={project.key}
+                      />
                     </Col>
                   </Row>
                 </Link>

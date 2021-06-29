@@ -2,10 +2,10 @@
   {
     "key": "1",
     "category": "UI/UX",
-    "title": "Project 1 Title",
-    "blurb": "Project 1 Blurb",
-    "image": "Project 1 Image",
-    "link": "Project 1 Link"
+    "title": "Dashboards",
+    "blurb": "Dashboard Power BI Data visualisation for various clients",
+    "image": "./images/AgedCareDashboard1.jpg",
+    "link": "Dashboard"
   },
   {
     "key": "1",
