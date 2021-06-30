@@ -4,55 +4,48 @@
     "category": "UI/UX",
     "title": "Dashboards",
     "blurb": "Dashboard Power BI Data visualisation for various clients",
-    "image": "./images/AgedCareDashboard1.jpg",
-    "link": "Dashboard"
+    "image": "./images/uxui/aged care/AgedCareDashboard1.jpg"
   },
   {
     "key": "1",
     "category": "Branding",
     "title": "Project 1 Title",
     "blurb": "Project 1 Blurb",
-    "image": "Project 1 Image",
-    "link": "/project"
+    "image": "./images/branding/test.jpg"
   },
   {
     "key": "2",
     "category": "Branding",
     "title": "Project 2 Title",
     "blurb": "Project 2 Blurb",
-    "image": "Project 2 Image",
-    "link": "Project 2 Link"
+    "image": "./images/branding/test1.jpg"
   },
   {
     "key": "1",
     "category": "Illustration",
     "blurb": "Project 1 Blurb",
     "title": "Project 1 Title",
-    "image": "Project 1 Image",
-    "link": "Project 1 Link"
+    "image": "./images/illustrations/portfolio1.jpg"
   },
   {
     "key": "1",
     "category": "Photo",
     "blurb": "Project 1 Blurb",
     "title": "Project 1 Title",
-    "image": "Project 1 Image",
-    "link": "Project 1 Link"
+    "image": "Project 1 Image"
   },
   {
     "key": "2",
     "category": "Photo",
     "blurb": "Project 2 Blurb",
     "title": "Project 2 Title",
-    "image": "Project 2 Image",
-    "link": "Project 2 Link"
+    "image": "Project 2 Image"
   },
   {
     "key": "3",
     "category": "Photo",
     "blurb": "Project 3 Blurb",
     "title": "Project 3 Title",
-    "image": "Project 3 Image",
-    "link": "Project 3 Link"
+    "image": "Project 3 Image"
   }
 ]

@@ -53,7 +53,7 @@ const ProjectTile = (props) => {
                     </Col>
                     <Col md={5}>
                       <img
-                        src={`${project.image}`}
+                        src={project.image}
                         alt={project.title}
                         key={project.key}
                       />
