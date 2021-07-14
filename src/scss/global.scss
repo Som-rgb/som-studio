@@ -22,28 +22,34 @@
   font-weight: 400;
 }
 
+h1 {
+  text-align: center;
+}
+
 body {
-  background: linear-gradient(135deg, #e66465 10%, #9198e5);
+  background-image: url(../images/gradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 //Fonts
 p {
   font-size: $font-size-base * 1.6;
-}
 
-// Card
-.card {
-  border: none;
-  background-color: rgba(255, 255, 255, 0.9%);
-}
+  // Card
+  .card {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9%);
+  }
 
-// Footer
-.end-nav {
-  border-left: 1px #000;
-}
+  // Footer
+  .end-nav {
+    border-left: 1px #000;
+  }
 
-// Buttons
-.arrow {
-  background-color: rgba(255, 255, 255, 0.9%);
-  border: none;
+  // Buttons
+  .arrow {
+    background-color: rgba(255, 255, 255, 0.9%);
+    border: none;
+  }
 }

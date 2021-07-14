@@ -1,11 +1,16 @@
-import React from "react";
-import projects from "./../data/projects.json";
+import projects from "../data/projects.json";
 import { Link } from "react-router-dom";
 import { Row, Col, Card } from "react-bootstrap";
+import styles from "../tile.module.scss";
+import React from "react";
 
-const ProjectTile = (props) => {
+interface Params {
+  projectFilter: any;
+}
+
+const ProjectTile: React.FC<Params> = (projectFilter) => {
   const projectList = projects.filter(
-    (project) => project.category === props.projectFilter
+    (project) => project.category === "branding"
   );
 
   const projectListLength = projectList.length;
@@ -53,6 +58,7 @@ const ProjectTile = (props) => {
                     </Col>
                     <Col md={5}>
                       <img
+                        className={styles[`image`]}
                         src={project.image}
                         alt={project.title}
                         key={project.key}
