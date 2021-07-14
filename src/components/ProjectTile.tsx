@@ -10,8 +10,10 @@ interface Params {
 
 const ProjectTile: React.FC<Params> = (projectFilter) => {
   const projectList = projects.filter(
-    (project) => project.category === "branding"
+    (project) => project.category === projectFilter.projectFilter
   );
+
+  console.log(projectFilter);
 
   const projectListLength = projectList.length;
 
