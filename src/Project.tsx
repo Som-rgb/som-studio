@@ -5,7 +5,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Forward from "./images/Forward.svg";
 import Back from "./images/Back.svg";
 
-const Project = () => {
+interface Params {
+  location: any;
+}
+
+const Project: React.FC<Params> = () => {
   let location = useLocation();
   const [projectNum, setProjectNum] = useState(
     Number(location.state.projectNum)
