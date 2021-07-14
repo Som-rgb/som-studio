@@ -13,8 +13,6 @@ const ProjectTile: React.FC<Params> = (projectFilter) => {
     (project) => project.category === projectFilter.projectFilter
   );
 
-  console.log(projectFilter);
-
   const projectListLength = projectList.length;
 
   return (
