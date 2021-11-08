@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 import Forward from "./images/Forward.svg";
 import Back from "./images/Back.svg";
@@ -53,16 +53,27 @@ const Project: React.FC<Params> = () => {
           <Col className="d-flex ms-auto" md={9}>
             {projectCategory} / {projectTitle}
           </Col>
-          <Col className="d-flex me-auto justify-content-end" md={3}>
-            <button className="arrow" onClick={handleButtonBack}>
+          <Col className="d-flex me-auto" md={1}>
+            <Button variant="link" className="arrow" onClick={handleButtonBack}>
               <img src={Back} alt="Previous project" />
-            </button>
+            </Button>
+          </Col>
+
+          <Col className="d-flex justify-content-center" md={1}>
             {projectNum} / {projectTotalNum}
-            <button className="arrow" onClick={handleButtonForward}>
+          </Col>
+
+          <Col className="d-flex me-auto" md={1}>
+            <Button
+              variant="link"
+              className="arrow"
+              onClick={handleButtonForward}
+            >
               <img src={Forward} alt="Next project" />
-            </button>
+            </Button>
           </Col>
         </Row>
+
         <Row>
           <Col>
             <h2>{projectTitle}</h2>

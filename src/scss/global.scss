@@ -27,7 +27,7 @@ h1 {
 }
 
 body {
-  background-image: url(../images/gradient.png);
+  background-image: url(../images/dot-grid.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -35,21 +35,21 @@ body {
 //Fonts
 p {
   font-size: $font-size-base * 1.6;
+}
 
-  // Card
-  .card {
-    border: none;
-    background-color: rgba(255, 255, 255, 0.9%);
-  }
+// Card
+.card {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.9%);
+}
 
-  // Footer
-  .end-nav {
-    border-left: 1px #000;
-  }
+// Footer
+.end-nav {
+  border-left: 1px #000;
+}
 
-  // Buttons
-  .arrow {
-    background-color: rgba(255, 255, 255, 0.9%);
-    border: none;
-  }
+// Buttons
+.arrow {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
 }

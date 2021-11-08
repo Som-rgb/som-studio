@@ -7,14 +7,9 @@ const Footer = () => {
       <Navbar>
         <Container className=" border-top border-dark fixed-bottom">
           <Nav className="d-flex me-auto">
-            <LinkContainer to="https://www.google.com">
-              <Nav.Link>EMAIL</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="https://www.google.com">
+            <Nav.Link>SOMMERDEO@HOTMAIL.COM</Nav.Link>
+            <LinkContainer to="https://dribbble.com/somstudio">
               <Nav.Link>DRIBBLE</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="https://www.google.com">
-              <Nav.Link>INSTAGRAM</Nav.Link>
             </LinkContainer>
           </Nav>
           <Nav className="d-flex ms-auto justify-content-center">
