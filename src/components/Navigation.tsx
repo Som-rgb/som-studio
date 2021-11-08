@@ -1,7 +1,6 @@
-import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import Header from "./Header.js";
+import Header from "./Header";
 
 const Navigation = () => {
   return (
@@ -15,20 +14,12 @@ const Navigation = () => {
           </Nav>
           <Nav className="d-flex ms-auto">
             <LinkContainer to="/ux-ui">
-              <Nav.Link>UX / UI</Nav.Link>
+              <Nav.Link>WORK</Nav.Link>
             </LinkContainer>
 
-            <LinkContainer to="/branding">
+            {/* <LinkContainer to="/branding">
               <Nav.Link>BRANDING</Nav.Link>
-            </LinkContainer>
-
-            <LinkContainer to="/illustration">
-              <Nav.Link>ILLUSTRATION</Nav.Link>
-            </LinkContainer>
-
-            <LinkContainer to="/photo">
-              <Nav.Link>PHOTO</Nav.Link>
-            </LinkContainer>
+            </LinkContainer> */}
           </Nav>
         </Container>
       </Navbar>

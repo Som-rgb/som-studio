@@ -22,8 +22,14 @@
   font-weight: 400;
 }
 
+h1 {
+  text-align: center;
+}
+
 body {
-  background: linear-gradient(135deg, #e66465 10%, #9198e5);
+  background-image: url(../images/dot-grid.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 //Fonts
@@ -44,6 +50,6 @@ p {
 
 // Buttons
 .arrow {
-  background-color: rgba(255, 255, 255, 0.9%);
+  background-color: rgba(0, 0, 0, 0);
   border: none;
 }

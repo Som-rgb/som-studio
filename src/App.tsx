@@ -2,15 +2,15 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
-import Navigation from "./components/Navigation.js";
-import Footer from "./components/Footer.js";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
-import Home from "./Home.js";
-import UXUI from "./UXUI.js";
-import Branding from "./Branding.js";
-import Illustration from "./Illustration.js";
-import Photo from "./Photo.js";
-import Project from "./Project.js";
+import Home from "./Home";
+import UXUI from "./UXUI";
+import Branding from "./Branding";
+import Illustration from "./Illustration";
+import Photo from "./Photo";
+import Project from "./Project";
 
 const App = () => {
   return (
