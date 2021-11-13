@@ -1,11 +1,11 @@
 // Header fonts
-@font-face {
-  font-family: DM-Serif-Display;
-  src: url(../fonts/dm-serif-display-regular.woff2),
-    url(../fonts/dm-serif-display-regular.woff);
-  font-style: normal;
-  font-weight: 600;
-}
+// @font-face {
+//   font-family: DM-Serif-Display;
+//   src: url(../fonts/dm-serif-display-regular.woff2),
+//     url(../fonts/dm-serif-display-regular.woff);
+//   font-style: normal;
+//   font-weight: 600;
+// }
 
 //Body fonts
 @font-face {
@@ -16,20 +16,15 @@
 }
 
 @font-face {
-  font-family: Roboto;
-  src: url(../fonts/Roboto-Regular.woff2), url(../fonts/Roboto-Regular.woff);
+  font-family: NovaFlat;
+  src: url(../fonts/nova-flat-regular.woff2),
+    url(../fonts/nova-flat-regular.woff);
   font-style: normal;
   font-weight: 400;
 }
 
-h1 {
-  text-align: center;
-}
-
 body {
-  background-image: url(../images/dot-grid.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #fafafa;
 }
 
 //Fonts
@@ -37,15 +32,24 @@ p {
   font-size: $font-size-base * 1.6;
 }
 
+.header {
+  margin-top: 2rem;
+  padding-right: 6rem;
+}
+
+.footer {
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
 // Card
 .card {
   border: none;
   background-color: rgba(255, 255, 255, 0.9%);
-}
-
-// Footer
-.end-nav {
-  border-left: 1px #000;
 }
 
 // Buttons
