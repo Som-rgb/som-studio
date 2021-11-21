@@ -28,7 +28,7 @@ const AboutContent = () => {
       </Col>
       <Col sm={1} md={1}>
         <div className={styles["about-links"]}>
-          <LinkContainer to="medium.com">
+          <LinkContainer to="https://medium.com/@sommer.deo">
             <h4>medium</h4>
           </LinkContainer>
         </div>

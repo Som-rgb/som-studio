@@ -1,8 +1,9 @@
-import projects from "../data/projects.json";
+import { LinkContainer } from "react-router-bootstrap";
 import { Row, Col } from "react-bootstrap";
+import projects from "../data/projects.json";
+
 import styles from "./ProjectContent.module.scss";
-import React from "react";
-import { isTemplateExpression } from "typescript";
+import DownArrow from "../images/down.svg";
 
 interface Params {
   projectFilter: any;
@@ -12,35 +13,16 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
   const projectList = projects.filter(
     (project) => project.category === projectFilter.projectFilter
   );
+
   return (
     <>
-      {projectList.map((project, key, image) => {
+      {projectList.map((project, key) => {
         return (
-          <div key={project.key}>
-            {/* <Link
-              to={{
-                pathname: "/project",
-                state: {
-                  projectCategory: project.category,
-                  projectNum: project.key,
-                  projectTotalNum: projectListLength,
-                  projectTitle: project.title,
-                  projectBlurb: project.blurb,
-                  projectImage: project.image,
-                  project: { projectList },
-                },
-              }}
-            > */}
-
-            {/* {props.siteLinks.map((item, key) => (
-        <div key={item.title}>
-            <li>{item.title}</li>
-            {item.submenu.map((x)=>(
-              <li key={x.title}>{x.title}</li>
-            ))}
-        </div>
-       ))} */}
-
+          <div
+            key={project.key}
+            className="container"
+            style={{ backgroundColor: project.primarycolor }}
+          >
             <div className={styles["project-container"]}>
               <Row className={styles["project-section"]}>
                 <Col md={1}></Col>
@@ -58,7 +40,7 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
                 <Col md={1}></Col>
                 <Col md={5}>
                   <img
-                    className={styles[`project-image`]}
+                    className={styles["project-image"]}
                     src={project.image}
                     alt={project.title}
                     key={project.key}
@@ -70,17 +52,39 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
               <Row className={styles["project-section"]}>
                 <Col md={1}></Col>
                 <Col md={4}>
-                  <div className={styles["theme-content"]}>
-                    {project.themeOneImage}
+                  <div>
+                    <img
+                      className={styles["project-image"]}
+                      src={project.image}
+                      alt={project.title}
+                      key={project.key}
+                    />
                   </div>
                 </Col>
-                <Col md={5}>
+                <Col md={5} className="d-flex justify-content-end">
                   <div className={styles["subtitle-container"]}>
-                    <h4>{project.themeOneTitle}</h4>
+                    <p>{project.blurb}</p>
                   </div>
                 </Col>
               </Row>
-              {/* </Link> */}
+
+              <Row className="d-flex justify-content-end">
+                <Col sm={9} md={9}></Col>
+                <Col sm={1} md={1}>
+                  <div className="d-flex justify-content-end">
+                    <div className={styles["down-arrow"]}>
+                      <LinkContainer to={{ pathname: "/project" }}>
+                        <img src={DownArrow} alt="down" />
+                      </LinkContainer>
+                    </div>
+                  </div>
+                </Col>
+                <Col sm={1} md={1}>
+                  <LinkContainer to="/home" className="logo-rotate">
+                    <h2>SOM STUDIO</h2>
+                  </LinkContainer>
+                </Col>
+              </Row>
             </div>
           </div>
         );

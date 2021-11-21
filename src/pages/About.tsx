@@ -1,12 +1,14 @@
 import { Row } from "react-bootstrap";
-
-import Logo from "../components/Logo";
 import AboutContent from "../components/AboutContent";
+
+import { LinkContainer } from "react-router-bootstrap";
 
 const About = () => {
   return (
     <>
-      <Logo />
+      <LinkContainer to="/home" className="logo d-flex justify-content-end">
+        <h2>SOM STUDIO</h2>
+      </LinkContainer>
       <Row>
         <AboutContent />
       </Row>

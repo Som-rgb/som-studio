@@ -1,17 +1,28 @@
 @import "../scss/overrides";
 
+.container {
+  padding-right: 0;
+  padding-top: 0;
+}
+
 .project-container {
-  margin-top: 2rem;
+  z-index: -1;
   padding-top: 4rem;
-  padding-bottom: 4rem;
-  margin-bottom: 0;
-  background-color: orange;
+  margin-bottom: -1rem;
 }
 
 .project-section {
-  margin-bottom: 6rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .project-image {
   width: 100%;
+}
+
+.down-arrow {
+  position: relative;
+  z-index: 1;
+  margin-top: 6rem;
+  bottom: 0;
 }

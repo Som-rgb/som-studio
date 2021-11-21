@@ -2,24 +2,25 @@
   {
     "key": "1",
     "category": "UI/UX",
-    "title": "Dashboards",
-    "blurb": "Dashboard Power BI Data visualisation for various clients",
-    "image": {
-      "src": "./images/uxui/aged care/AgedCareDashboard1.jpg"
-    }
-  },
-  {
-    "key": "1",
-    "category": "Branding",
-    "title": "Project 1 Title",
-    "blurb": "Project 1 Blurb",
-    "image": "./images/branding/test.jpg"
+    "title": "Thing 1",
+    "blurb": "Here's a description",
+    "image": "./images/gym-app/desk.png",
+    "primarycolor": "pink"
   },
   {
     "key": "2",
-    "category": "Branding",
-    "title": "Project 2 Title",
-    "blurb": "Project 2 Blurb",
-    "image": "./images/branding/test1.jpg"
+    "category": "UI/UX",
+    "title": "Thing 2",
+    "blurb": "Here's a description",
+    "image": "./images/gym-app/desk.png",
+    "primarycolor": "orange"
+  },
+  {
+    "key": "3",
+    "category": "UI/UX",
+    "title": "Thing 3",
+    "blurb": "Here's a description",
+    "image": "./images/gym-app/desk.png",
+    "primarycolor": "green"
   }
 ]

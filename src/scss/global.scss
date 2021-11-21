@@ -1,18 +1,16 @@
-// Header fonts
-// @font-face {
-//   font-family: DM-Serif-Display;
-//   src: url(../fonts/dm-serif-display-regular.woff2),
-//     url(../fonts/dm-serif-display-regular.woff);
-//   font-style: normal;
-//   font-weight: 600;
-// }
-
-//Body fonts
+//Font imports
 @font-face {
-  font-family: Roboto;
-  src: url(../fonts/Roboto-Light.woff2), url(../fonts/Roboto-Light.woff);
+  font-family: OpenSans;
+  src: url(../fonts/open-sans.woff2), url(../fonts/open-sans.woff);
   font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/open-sans-700.woff2), url(../fonts/open-sans-700.woff);
+  font-style: normal;
+  font-weight: 700;
 }
 
 @font-face {
@@ -27,14 +25,17 @@ body {
   background-color: #fafafa;
 }
 
-//Fonts
 p {
   font-size: $font-size-base * 1.6;
 }
 
-.header {
+.logo {
   margin-top: 2rem;
   padding-right: 6rem;
+}
+
+.logo-rotate {
+  transform: rotate(90deg);
 }
 
 .footer {
@@ -56,4 +57,8 @@ p {
 .arrow {
   background-color: rgba(0, 0, 0, 0);
   border: none;
+}
+
+.container {
+  padding-right: 0;
 }
