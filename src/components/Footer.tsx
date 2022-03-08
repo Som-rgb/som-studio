@@ -7,14 +7,14 @@ const Footer = () => {
       <Navbar>
         <Container className="fixed-bottom footer">
           <Nav className="d-flex me-auto">
+            <LinkContainer to="/home">
+              <Nav.Link>
+                <h4>home</h4>
+              </Nav.Link>
+            </LinkContainer>
             <LinkContainer to="/about">
               <Nav.Link>
                 <h4>about</h4>
-              </Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/archive">
-              <Nav.Link>
-                <h4>archive</h4>
               </Nav.Link>
             </LinkContainer>
           </Nav>

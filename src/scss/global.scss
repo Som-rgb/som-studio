@@ -36,6 +36,8 @@ p {
 
 .logo-rotate {
   transform: rotate(90deg);
+  display: flex;
+  justify-content: start;
 }
 
 .footer {
@@ -61,4 +63,15 @@ p {
 
 .container {
   padding-right: 0;
+}
+
+// Projects page
+.project-container {
+  .project-text-container {
+    padding: 20% 0;
+  }
+  iframe {
+    height: 760px;
+    width: 1140px;
+  }
 }

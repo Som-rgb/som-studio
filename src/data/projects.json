@@ -2,10 +2,11 @@
   {
     "key": "1",
     "category": "UI/UX",
-    "title": "Thing 1",
-    "blurb": "Here's a description",
-    "image": "./images/gym-app/desk.png",
-    "primarycolor": "pink"
+    "title": "M8",
+    "image": "./images/Mockups/M8.png",
+    "blurb": "A first in the retail industry, an app offering a streamlined experience for capturing monthly sales data between Tenants and Property Managers. ",
+    "primarycolor": "pink",
+    "url": "/M8"
   },
   {
     "key": "2",
@@ -14,13 +15,5 @@
     "blurb": "Here's a description",
     "image": "./images/gym-app/desk.png",
     "primarycolor": "orange"
-  },
-  {
-    "key": "3",
-    "category": "UI/UX",
-    "title": "Thing 3",
-    "blurb": "Here's a description",
-    "image": "./images/gym-app/desk.png",
-    "primarycolor": "green"
   }
 ]

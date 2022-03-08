@@ -28,7 +28,9 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
                 <Col md={1}></Col>
                 <Col md={4}>
                   <div className={styles["title-container"]}>
-                    <h3>{project.title}</h3>
+                    <LinkContainer to={{ pathname: project.url }}>
+                      <h3>{project.title}</h3>
+                    </LinkContainer>
                     <div className={styles["project-number"]}>
                       {project.key}
                     </div>
@@ -39,48 +41,29 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
                 </Col>
                 <Col md={1}></Col>
                 <Col md={5}>
-                  <img
-                    className={styles["project-image"]}
-                    src={project.image}
-                    alt={project.title}
-                    key={project.key}
-                  />
-                </Col>
-                <Col md={1}></Col>
-              </Row>
-
-              <Row className={styles["project-section"]}>
-                <Col md={1}></Col>
-                <Col md={4}>
-                  <div>
+                  <LinkContainer to={{ pathname: project.url }}>
                     <img
                       className={styles["project-image"]}
                       src={project.image}
                       alt={project.title}
                       key={project.key}
                     />
-                  </div>
+                  </LinkContainer>
                 </Col>
-                <Col md={5} className="d-flex justify-content-end">
-                  <div className={styles["subtitle-container"]}>
-                    <p>{project.blurb}</p>
-                  </div>
-                </Col>
+                <Col md={1}></Col>
               </Row>
 
-              <Row className="d-flex justify-content-end">
-                <Col sm={9} md={9}></Col>
+              <Row>
+                <Col sm={6} md={6}></Col>
                 <Col sm={1} md={1}>
-                  <div className="d-flex justify-content-end">
-                    <div className={styles["down-arrow"]}>
-                      <LinkContainer to={{ pathname: "/project" }}>
-                        <img src={DownArrow} alt="down" />
-                      </LinkContainer>
-                    </div>
+                  <div className="d-flex justify-content-start">
+                    <LinkContainer to={{ pathname: project.url }}>
+                      <img src={DownArrow} alt="down" />
+                    </LinkContainer>
                   </div>
                 </Col>
-                <Col sm={1} md={1}>
-                  <LinkContainer to="/home" className="logo-rotate">
+                <Col sm={4} md={4} className="logo-rotate">
+                  <LinkContainer to="/home">
                     <h2>SOM STUDIO</h2>
                   </LinkContainer>
                 </Col>
