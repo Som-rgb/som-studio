@@ -5,16 +5,17 @@ const Footer = () => {
   return (
     <>
       <Navbar>
-        <Container className=" border-top border-dark fixed-bottom">
+        <Container className="fixed-bottom footer">
           <Nav className="d-flex me-auto">
-            <Nav.Link>SOMMERDEO@HOTMAIL.COM</Nav.Link>
-            <LinkContainer to="https://dribbble.com/somstudio">
-              <Nav.Link>DRIBBLE</Nav.Link>
-            </LinkContainer>
-          </Nav>
-          <Nav className="d-flex ms-auto justify-content-center">
             <LinkContainer to="/home">
-              <Nav.Link className="border-start border-dark">2021</Nav.Link>
+              <Nav.Link>
+                <h4>home</h4>
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/about">
+              <Nav.Link>
+                <h4>about</h4>
+              </Nav.Link>
             </LinkContainer>
           </Nav>
         </Container>

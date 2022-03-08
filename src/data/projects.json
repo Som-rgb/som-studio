@@ -2,50 +2,18 @@
   {
     "key": "1",
     "category": "UI/UX",
-    "title": "Dashboards",
-    "blurb": "Dashboard Power BI Data visualisation for various clients",
-    "image": "./images/uxui/aged care/AgedCareDashboard1.jpg"
-  },
-  {
-    "key": "1",
-    "category": "Branding",
-    "title": "Project 1 Title",
-    "blurb": "Project 1 Blurb",
-    "image": "./images/branding/test.jpg"
+    "title": "M8",
+    "image": "./images/Mockups/M8.png",
+    "blurb": "A first in the retail industry, an app offering a streamlined experience for capturing monthly sales data between Tenants and Property Managers. ",
+    "primarycolor": "pink",
+    "url": "/M8"
   },
   {
     "key": "2",
-    "category": "Branding",
-    "title": "Project 2 Title",
-    "blurb": "Project 2 Blurb",
-    "image": "./images/branding/test1.jpg"
-  },
-  {
-    "key": "1",
-    "category": "Illustration",
-    "blurb": "Project 1 Blurb",
-    "title": "Project 1 Title",
-    "image": "./images/illustrations/portfolio1.jpg"
-  },
-  {
-    "key": "1",
-    "category": "Photo",
-    "blurb": "Project 1 Blurb",
-    "title": "Project 1 Title",
-    "image": "Project 1 Image"
-  },
-  {
-    "key": "2",
-    "category": "Photo",
-    "blurb": "Project 2 Blurb",
-    "title": "Project 2 Title",
-    "image": "Project 2 Image"
-  },
-  {
-    "key": "3",
-    "category": "Photo",
-    "blurb": "Project 3 Blurb",
-    "title": "Project 3 Title",
-    "image": "Project 3 Image"
+    "category": "UI/UX",
+    "title": "Thing 2",
+    "blurb": "Here's a description",
+    "image": "./images/gym-app/desk.png",
+    "primarycolor": "orange"
   }
 ]

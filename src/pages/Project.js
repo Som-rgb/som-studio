@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import Forward from "./images/Forward.svg";
-import Back from "./images/Back.svg";
+import Forward from "../images/Forward.svg";
+import Back from "../images/Back.svg";
 
 interface Params {
   location: any;
