@@ -29,9 +29,17 @@ p {
   font-size: $font-size-base * 1.6;
 }
 
-.logo {
-  margin-top: 2rem;
+.logo-gif {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.gif {
+  text-align: right;
+  margin-top: 1rem;
   padding-right: 6rem;
+  img {
+    width: 100px;
+  }
 }
 
 .logo-rotate {
