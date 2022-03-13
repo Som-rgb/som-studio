@@ -42,10 +42,18 @@ p {
   }
 }
 
+.logo-container {
+  position: relative;
+}
+
 .logo-rotate {
+  padding: 2%;
+  background-color: #fafafa;
   transform: rotate(90deg);
-  display: flex;
-  justify-content: start;
+  position: absolute;
+  margin-bottom: 5rem;
+  right: 0;
+  bottom: 0;
 }
 
 .footer {
