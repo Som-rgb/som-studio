@@ -86,8 +86,14 @@ p {
   .project-text-container {
     padding: 20% 0;
   }
+  .figma-container {
+    background-color: pink;
+    width: 1140px;
+    padding: 1%;
+    text-align: right;
+  }
   iframe {
-    height: 760px;
+    height: 660px;
     width: 1140px;
   }
 }
