@@ -1,8 +1,10 @@
-import { LinkContainer } from "react-router-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import projects from "../data/projects.json";
 
+import { LinkContainer } from "react-router-bootstrap";
+
 import styles from "./ProjectContent.module.scss";
+import Link from "../images/Link.svg";
 
 interface Params {
   projectFilter: any;
@@ -17,46 +19,32 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
     <>
       {projectList.map((project, key) => {
         return (
-          <div
-            key={project.key}
-            className="container"
-            style={{ backgroundColor: project.primarycolor }}
-          >
-            <LinkContainer to={{ pathname: project.url }}>
-              <div className={styles["project-container"]}>
-                <Row className={styles["project-section"]}>
-                  <Col md={2}></Col>
-                  <Col md={3}>
-                    <div className={styles["title-container"]}>
-                      <h3>{project.title}</h3>
-                      <div className={styles["project-blurb"]}>
-                        <p>{project.blurb}</p>
+          <>
+            <Col md={5}>
+              <div key={project.key} className={styles["project-container"]}>
+                <LinkContainer to={{ pathname: project.url }}>
+                  <>
+                    <div className={styles["project-title"]}>
+                      <div className={styles["project-title-item"]}>
+                        <h3>{project.title}</h3>
+                      </div>
+                      <div className={styles["project-header-item"]}>
+                        <img src={Link} alt="Link to"></img>
                       </div>
                     </div>
-                  </Col>
-                  <Col md={5}>
+                    <h5>{project.blurb}</h5>
+
                     <img
                       className={styles["project-image"]}
                       src={project.image}
                       alt={project.title}
                     />
-                  </Col>
-                  <Col md={2}></Col>
-                </Row>
-              </div>
-            </LinkContainer>
-
-            <div className="logo-container">
-              <div
-                className="logo-rotate"
-                style={{ backgroundColor: project.secondarycolor }}
-              >
-                <LinkContainer to="/home">
-                  <h4>SOM STUDIO</h4>
+                  </>
                 </LinkContainer>
               </div>
-            </div>
-          </div>
+            </Col>
+            <Col md={1}></Col>
+          </>
         );
       })}
     </>

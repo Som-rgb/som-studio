@@ -4,19 +4,15 @@
     "category": "UI/UX",
     "title": "M8",
     "image": "./images/Mockups/M8.png",
-    "blurb": "M8 modernises and automates the sales data capture process for a portfolio of assets for a national retailer",
-    "primarycolor": "pink",
-    "secondarycolor": "orange",
+    "blurb": "Sales Data Management",
     "url": "/M8"
   },
   {
     "key": "2",
     "category": "UI/UX",
-    "title": "Robotics Australia",
-    "blurb": "A digital portal for all regulations regarding robotics in Australia",
-    "image": "./images/Mockups/RAS.png",
-    "primarycolor": "orange",
-    "secondarycolor": "pink",
+    "title": "ROB",
+    "blurb": "Robotics Digital Gateway",
+    "image": "./images/Mockups/M8.png",
     "url": "/RAS"
   }
 ]

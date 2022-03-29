@@ -1,32 +1,21 @@
 @import "../scss/overrides";
-
-.container {
-  padding-right: 0;
-  padding-top: 0;
-}
-
 .project-container {
-  z-index: -1;
-  padding-top: 2rem;
-  margin-bottom: -1rem;
   transition: transform 0.4s;
   &:hover {
     transform: scale(1.05);
   }
 }
+.project-title {
+  display: flex;
+  h3 {
+    color: #2066bb;
+  }
+}
 
-.project-section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.project-title-item {
+  flex-basis: 100%;
 }
 
 .project-image {
   width: 100%;
-}
-
-.project-image-two {
-  width: 50%;
-  .img {
-    margin: 0 auto;
-  }
 }

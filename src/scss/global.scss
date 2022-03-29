@@ -42,6 +42,15 @@ p {
   }
 }
 
+.UX-container {
+  padding: 5%;
+  background-color: #ffd7eb;
+  .header {
+    border-bottom: solid 2px black;
+    margin-bottom: 2%;
+  }
+}
+
 .logo-container {
   position: relative;
 }

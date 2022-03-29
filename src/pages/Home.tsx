@@ -2,6 +2,7 @@ import { Row } from "react-bootstrap";
 
 import HomeContent from "../components/HomeContent";
 import ProjectContent from "../components/ProjectContent";
+import About from "../components/AboutContent";
 
 import { LinkContainer } from "react-router-bootstrap";
 
@@ -18,9 +19,13 @@ const Home = () => {
       <Row>
         <HomeContent />
       </Row>
-      <Row>
+      <Row className="UX-container">
+        <div className="header">
+          <h2>Latest UX Projects</h2>
+        </div>
         <ProjectContent projectFilter="UI/UX" />
       </Row>
+      <Row></Row>
     </>
   );
 };
