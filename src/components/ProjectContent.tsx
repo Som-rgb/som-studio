@@ -1,4 +1,4 @@
-import { Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import projects from "../data/projects.json";
 
 import { LinkContainer } from "react-router-bootstrap";
@@ -21,8 +21,8 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
         return (
           <>
             <Col md={5}>
-              <div key={project.key} className={styles["project-container"]}>
-                <LinkContainer to={{ pathname: project.url }}>
+              <LinkContainer to={{ pathname: project.url }}>
+                <div key={project.key} className={styles["project-container"]}>
                   <>
                     <div className={styles["project-title"]}>
                       <div className={styles["project-title-item"]}>
@@ -40,8 +40,8 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
                       alt={project.title}
                     />
                   </>
-                </LinkContainer>
-              </div>
+                </div>
+              </LinkContainer>
             </Col>
             <Col md={1}></Col>
           </>
