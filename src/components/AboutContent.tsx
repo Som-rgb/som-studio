@@ -11,22 +11,30 @@ const AboutContent = () => {
       <Col sm={7} md={7}>
         <img src={Desk} alt="desk" className={styles["left-image"]} />
         <div className={styles["bottom-text"]}>
-          <h6>Here is another picture of Som Studio.</h6>
+          <p>Here is another picture of Som Studio.</p>
         </div>
       </Col>
       <Col sm={3} md={3}>
         <div className={styles["text-box"]}>
           <p>
-            I am a UX designer with experience in product design, workshop
-            facilitation and branding. I did an interactive design and business
-            degree with a bit of{" "}
-            <a href="https://www.linkedin.com/in/sommerdeo/">experience</a>{" "}
-            inbetween. Other than that, I enjoy
+            I am an experienced and well rounded Digital Designer that works
+            well with cross-functional teams to take ideas from concept to
+            execution. I approach projects with creativity and passion backed by
+            insights from a skill set rooted in user-experience, user
+            interfaces, information architecture, digital illustration and
+            front-end code.
+            <br></br>
+            <br></br>I have experience in{" "}
+            <a href="https://www.linkedin.com/in/sommerdeo/">
+              product design, workshop facilitation and branding
+            </a>
+            , with a background in interactive design and business. Outside of
+            work, I enjoy
             <a href="https://www.instagram.com/som.draws/">
               {" "}
-              digital drawing
+              digital illustration
             </a>{" "}
-            and front-end dev - I made this website!
+            and front-end dev - I made this using React and Git.
           </p>
         </div>
       </Col>

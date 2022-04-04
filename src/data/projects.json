@@ -4,15 +4,19 @@
     "category": "UI/UX",
     "title": "M8",
     "image": "./images/Mockups/M8.png",
-    "blurb": "Sales Data Management",
-    "url": "/M8"
+    "blurb": "M8 modernises and automates the sales data capture process for a portfolio of assets for a national retailer.",
+    "url": "/M8",
+    "primary": "#72C2F0",
+    "secondary": "#2066BB"
   },
   {
     "key": "2",
     "category": "UI/UX",
     "title": "ROB",
-    "blurb": "Robotics Digital Gateway",
-    "image": "./images/Mockups/M8.png",
-    "url": "/RAS"
+    "blurb": "ROB supports industry and drives business to Australian Robotic test sites by providing a digital eco-sytem that enables a forward-leaning community.",
+    "image": "./images/Mockups/ROB.jpg",
+    "url": "/ROB",
+    "primary": "#72C2F0",
+    "secondary": "#2066BB"
   }
 ]
