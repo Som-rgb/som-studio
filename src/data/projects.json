@@ -6,8 +6,8 @@
     "image": "./images/Mockups/M8.png",
     "blurb": "M8 modernises and automates the sales data capture process for a portfolio of assets for a national retailer.",
     "url": "/M8",
-    "primary": "#72C2F0",
-    "secondary": "#2066BB"
+    "primary": "#FEA735",
+    "secondary": "#FE7235"
   },
   {
     "key": "2",
@@ -16,7 +16,7 @@
     "blurb": "ROB supports industry and drives business to Australian Robotic test sites by providing a digital eco-sytem that enables a forward-leaning community.",
     "image": "./images/Mockups/ROB.jpg",
     "url": "/ROB",
-    "primary": "#72C2F0",
-    "secondary": "#2066BB"
+    "primary": "#00C3FF",
+    "secondary": "#0077FF"
   }
 ]
