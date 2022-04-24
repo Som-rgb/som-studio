@@ -20,7 +20,7 @@ const ROB = () => {
               <iframe
                 // style="border: 1px solid rgba(0, 0, 0, 0.1);"
                 className="iframe"
-                src="https://www.figma.com/proto/DFkrQs7XqUFpFEMVVU3iG0/B2B?page-id=0%3A1&node-id=21%3A1241&viewport=241%2C48%2C0.35&scaling=contain&starting-point-node-id=21%3A1241%26hide-ui%3D1"
+                src="https://www.figma.com/proto/DFkrQs7XqUFpFEMVVU3iG0/B2B?page-id=0%3A1&node-id=21%3A1241&viewport=241%2C48%2C0.35&scaling=contain&starting-point-node-id=21%3A1241"
               ></iframe>
               <h6 className="figma-container">
                 This is just an embedded Figma file, scroll right on the frame!
