@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 
-import Desk from "../images/desk.png";
+import Studio from "../images/Studio.jpeg";
 
 import styles from "../components/AboutContent.module.scss";
 
@@ -9,7 +9,7 @@ const AboutContent = () => {
     <>
       <Col sm={1} md={1}></Col>
       <Col sm={7} md={7}>
-        <img src={Desk} alt="desk" className={styles["left-image"]} />
+        <img src={Studio} alt="Studio" className={styles["left-image"]} />
         <div className={styles["bottom-text"]}>
           <p>Here is another picture of Som Studio.</p>
         </div>

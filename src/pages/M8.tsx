@@ -11,7 +11,7 @@ const M8 = () => {
                 <h2>M8</h2>
                 <p>
                   M8 modernises and automates the sales data capture process for
-                  a portfolio of assets for a national retailer.
+                  a portfolio of assets for a national retailer
                 </p>
               </div>
             </Col>
