@@ -16,35 +16,25 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
 
   return (
     <>
-      <div className={styles["project-title"]}>
-        <h2>Latest UX Projects</h2>
-      </div>
       {projectList.map((project, key) => {
         return (
           <>
             <Row key={project.key} className={styles["project-container"]}>
               <Col md={1}></Col>
               <Col md={10}>
-                <Row
-                  className={styles["project-holder"]}
-                  style={{ backgroundColor: project.primary }}
-                >
+                <Row>
                   <Col md={4}>
                     <h2>{project.title}</h2>
+                    <h4>The Problem</h4>
                     <p>{project.blurb}</p>
                     <Link to={{ pathname: project.url }}>
-                      <Button
-                        className="btn-lg"
-                        style={{ backgroundColor: project.secondary }}
-                      >
-                        View Case Study
-                      </Button>
+                      <Button>View Case Study</Button>
                     </Link>
                   </Col>
                   <Col md={2}></Col>
                   <Col md={6}>
                     <img
-                      className={styles["project-image"]}
+                      className={styles["project-top"]}
                       src={project.image}
                       alt={project.title}
                     />

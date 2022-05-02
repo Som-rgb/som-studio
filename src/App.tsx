@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Footer from "./components/Footer";
+import Logo from "./components/Logo";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <>
       <Router>
+        <Logo />
         <Switch>
           <Route exact path="/home" component={Home} />
           <Route exact path="/project" component={Project} />

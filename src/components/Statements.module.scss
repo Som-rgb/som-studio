@@ -1,0 +1,25 @@
+@import "../scss/overrides";
+
+.image {
+  width: 100%;
+}
+
+.home-container {
+  padding-top: 10rem;
+  height: 50rem;
+}
+
+.subtitle {
+  color: #ff6668;
+}
+
+.subtext {
+  min-height: 100px;
+  vertical-align: top;
+}
+
+.heading {
+  padding: 2rem 0;
+  color: #4036ed;
+  text-align: center;
+}

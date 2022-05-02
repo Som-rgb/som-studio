@@ -1,11 +1,13 @@
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+
+import Down from "../images/down.svg";
 
 const Footer = () => {
   return (
     <>
-      <Navbar>
-        <Container className="fixed-bottom footer">
+      <Navbar className="fixed-bottom footer">
+        <Container>
           <Nav className="d-flex me-auto">
             <LinkContainer to="/home">
               <Nav.Link>
@@ -18,6 +20,13 @@ const Footer = () => {
               </Nav.Link>
             </LinkContainer>
           </Nav>
+
+          <Row>
+            <Col md={11}></Col>
+            <Col md={1}>
+              <img src={Down} alt="scroll down" />
+            </Col>
+          </Row>
         </Container>
       </Navbar>
     </>

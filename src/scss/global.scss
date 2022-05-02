@@ -29,35 +29,26 @@ p {
   font-size: $font-size-base * 1.6;
 }
 
-.logo-gif {
-  display: flex;
-  flex-direction: row-reverse;
+h3 {
+  color: #4036ed;
 }
-.gif {
+
+.title {
   text-align: right;
-  margin-top: 1rem;
-  padding-right: 6rem;
-  img {
-    width: 100px;
-  }
-}
-
-.logo-container {
-  position: relative;
-}
-
-.logo-rotate {
-  padding: 2%;
-  background-color: #fafafa;
-  transform: rotate(90deg);
-  position: absolute;
-  margin-bottom: 5rem;
-  right: 0;
-  bottom: 0;
+  margin: 2rem 0 4rem 0;
+  color: #fbb91c;
 }
 
 .footer {
-  margin-bottom: 1rem;
+  background-color: #ff6668;
+  h4 {
+    padding: 10px 0;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  img {
+    height: 80%;
+  }
 }
 
 .navbar {
@@ -96,4 +87,8 @@ p {
     height: 660px;
     width: 1140px;
   }
+}
+
+svg {
+  padding: 2% 0;
 }
