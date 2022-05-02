@@ -6,7 +6,9 @@
     "image": "./images/Mockups/ROB.jpg",
     "blurb": "Increased production of bespoke robotics introduce higher amount of risks to industry. Developers must adhere to regulatory framweworks to reduce risks in the process, but; understanding and implementing regulatory frameworks is diffcult due to lack of accessible and user-friendly resources. ",
     "url": "/ROB",
-    "primary": "#FEA735",
-    "secondary": "#FE7235"
+    "primary": "#031B87",
+    "secondary": "#8CDCFF",
+    "teritaryOne": "#77DBDD",
+    "teritaryTwo": "#797FEE"
   }
 ]

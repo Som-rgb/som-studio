@@ -1,9 +1,14 @@
 @import "../scss/overrides";
 
-.project-container {
-  margin: 5% 0%;
+.top-container {
+  margin: 5rem 0;
   .project-top {
     width: 100%;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   }
+}
+
+.project-color {
+  height: 15px;
+  margin: 8% 1%;
 }
