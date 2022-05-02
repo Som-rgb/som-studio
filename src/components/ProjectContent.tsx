@@ -51,7 +51,7 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
                     </Row>
 
                     <h4>The Problem</h4>
-                    <p>{project.blurb}</p>
+                    <p>{project.problemBlurb}</p>
                   </Col>
                   <Col md={2}></Col>
                   <Col md={6}>
@@ -66,12 +66,29 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
               <Col md={1}></Col>
             </Row>
 
-            <Row></Row>
+            <Row className={styles["top-container"]}>
+              <Col md={1}></Col>
+              <Col md={10}>
+                <h4>Some things in here</h4>
+              </Col>
+              <Col md={1}></Col>
+            </Row>
 
-            <Row>
-              <Link to={{ pathname: project.url }}>
-                <Button>View Case Study</Button>
-              </Link>
+            <Row className={styles["top-container"]}>
+              <Col md={1}></Col>
+              <Col md={10}>
+                <h4>The Solution</h4>
+                <p>{project.solutionBlurb}</p>
+                <Link to={{ pathname: project.url }}>
+                  <Button
+                    className="btn-lg"
+                    style={{ backgroundColor: project.secondary }}
+                  >
+                    View Case Study
+                  </Button>
+                </Link>
+              </Col>
+              <Col md={1}></Col>
             </Row>
           </>
         );
