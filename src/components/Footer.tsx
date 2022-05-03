@@ -1,8 +1,6 @@
 import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 
-import Down from "../images/down.svg";
-
 const Footer = () => {
   return (
     <>
@@ -16,7 +14,7 @@ const Footer = () => {
             </LinkContainer>
             <LinkContainer to="/about">
               <Nav.Link>
-                <h4>about</h4>
+                <h4>about me</h4>
               </Nav.Link>
             </LinkContainer>
           </Nav>
@@ -24,7 +22,7 @@ const Footer = () => {
           <Row>
             <Col md={11}></Col>
             <Col md={1}>
-              <img src={Down} alt="scroll down" />
+              <div className="arrow bounce-2"></div>
             </Col>
           </Row>
         </Container>

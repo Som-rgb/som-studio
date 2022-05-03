@@ -43,12 +43,9 @@ const Home = () => {
           Sorry, your browser does not support inline SVG.
         </svg>
       </Row>
-
-      <Container>
-        <Row>
-          <ProjectContent projectFilter="UI/UX" />
-        </Row>
-      </Container>
+      <Row>
+        <ProjectContent projectFilter="Web App Case Study" />
+      </Row>
     </>
   );
 };

@@ -1,29 +1,5 @@
 @import "../scss/overrides";
 
-.left-image {
-  max-height: 500px;
-}
-
-.text-box {
-  background-color: #fafafa;
-  width: 100%;
-  margin-top: 10vh;
-  margin-left: -10vw;
-  padding: 2rem;
-  .p {
-    width: 100%;
-  }
-}
-
-.bottom-text {
-  max-width: 10rem;
-  margin-top: 1rem;
-  margin-left: 4rem;
-  .p {
-    width: 100%;
-  }
-}
-
 .about-links {
   position: fixed;
   right: 6rem;

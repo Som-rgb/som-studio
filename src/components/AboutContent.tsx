@@ -1,43 +1,53 @@
-import { Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
-import Studio from "../images/Studio.jpeg";
+import Som from "../images/Som.png";
 
-import styles from "../components/AboutContent.module.scss";
+import styles from "../components/Statements.module.scss";
 
 const AboutContent = () => {
   return (
     <>
-      <Col sm={1} md={1}></Col>
-      <Col sm={7} md={7}>
-        <img src={Studio} alt="Studio" className={styles["left-image"]} />
-        <div className={styles["bottom-text"]}>
-          <p>Here is another picture of Som Studio.</p>
-        </div>
-      </Col>
-      <Col sm={3} md={3}>
-        <div className={styles["text-box"]}>
-          <p>
-            I am an experienced and well rounded Digital Designer that works
-            well with cross-functional teams to take ideas from concept to
-            execution. I approach projects with creativity and passion backed by
-            insights from a skill set rooted in user-experience, user
-            interfaces, information architecture, digital illustration and
-            front-end code.
-            <br></br>
-            <br></br>I have experience in{" "}
-            <a href="https://www.linkedin.com/in/sommerdeo/">
-              product design, workshop facilitation and branding
-            </a>
-            , with a background in interactive design and business. Outside of
-            work, I enjoy
-            <a href="https://www.instagram.com/som.draws/">
-              {" "}
-              digital illustration
-            </a>{" "}
-            and front-end dev - I made this using React and Git.
-          </p>
-        </div>
-      </Col>
+      <Row className={styles["main-container"]}>
+        <Col md={1}></Col>
+        <Col md={5}>
+          <Row>
+            <h3>
+              Hey! I'm Sommer, a Digital Designer that approaches projects with
+              technical understanding and creativity.
+            </h3>
+          </Row>
+          <Row>
+            <svg height="40px">
+              <line
+                x1="0"
+                y1="0"
+                x2="100%"
+                y2="0"
+                style={{ stroke: "#4036ed", strokeWidth: "4px" }}
+              />
+              Sorry, your browser does not support inline SVG.
+            </svg>
+          </Row>
+          <Row>
+            <Col md={6}>
+              <h3>2+</h3>
+              <h4>Years of Experience</h4>
+            </Col>
+            <Col md={6}>
+              <h3>5</h3>
+              <h4>Software projects</h4>
+            </Col>
+          </Row>
+        </Col>
+        <Col md={1}></Col>
+        <Col md={3} className={styles["image-container"]}>
+          <img src={Som} alt="Girl frowning" className={styles["image"]} />
+        </Col>
+        <Col md={1}></Col>
+      </Row>
+      <Row>
+        <h4>A list of my experiences</h4>
+      </Row>
     </>
   );
 };

@@ -14,6 +14,12 @@
 
 .bottom-container {
   margin: 5rem 0;
+  .link {
+    color: #ff6668;
+    img {
+      transform: rotate(235deg);
+    }
+  }
 }
 
 .project-color {

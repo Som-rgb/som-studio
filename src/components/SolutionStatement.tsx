@@ -8,7 +8,7 @@ import Bullet from "../images/Bullet.svg";
 const ProblemStatement = () => {
   return (
     <>
-      <Row className={styles["home-container"]}>
+      <Row className={styles["main-container"]}>
         <Col md={1}></Col>
         <Col md={3} className={styles["image-container"]}>
           <img src={Solution} alt="Girl smiling" className={styles["image"]} />
