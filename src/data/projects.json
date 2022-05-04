@@ -5,7 +5,7 @@
     "title": "ROB",
     "image": "./images/Mockups/ROB.jpg",
     "gif": "./images/Mockups/ROB.gif",
-    "problemBlurb": "Increased production of bespoke robotics introduce higher amount of risks to industry. Developers must adhere to regulatory framweworks to reduce risks in the process, but; understanding and implementing regulatory frameworks is diffcult due to lack of accessible and user-friendly resources. ",
+    "problemBlurb": "Increased production of bespoke robotics introduce higher amount of risks to industry. Developers must adhere to regulatory frameworks to reduce risks in the process. Understanding and implementing regulatory frameworks is diffcult due to lack of accessible and user-friendly resources. ",
     "solutionBlurb": "ROB is a web portal that eases the process for users to develop robotics by providing regulatory guidance with an ecosystem of pragmatic and user-friendly tools. ",
     "url": "/ROB",
     "primary": "#031B87",

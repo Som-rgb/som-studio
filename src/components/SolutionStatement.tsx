@@ -57,7 +57,7 @@ const ProblemStatement = () => {
                 </h4>
 
                 <p className={styles["subtext"]}>
-                  TDetermine what users expect to see and how content is
+                  Determine what users expect to see and how content is
                   displayed and accessed.
                 </p>
               </Row>

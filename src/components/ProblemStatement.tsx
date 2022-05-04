@@ -57,8 +57,8 @@ const SolutionStatement = () => {
                 </h4>
 
                 <p className={styles["subtext"]}>
-                  There are so many artefacts and functions for this app - I
-                  don’t what is talking to who.
+                  There are so many artefacts and functions for this app - I'm
+                  lost.
                 </p>
               </Row>
             </Col>
