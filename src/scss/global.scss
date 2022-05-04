@@ -40,21 +40,16 @@ h3 {
 }
 
 .footer {
+  background-color: #ff6668;
   h4 {
+    color: #ffffff;
     padding: 10px 0;
-    text-decoration: underline;
-    background: linear-gradient(to right, #fb080b, #fb080b 50%, #ff6668);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 600ms ease;
-    text-decoration: none; // text decorations are clipped in WebKit browsers
+
     &:hover {
-      background-position: 0 100%;
+      color: #fbb91c;
     }
   }
+
   .arrow {
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
@@ -73,7 +68,7 @@ h3 {
       transform: translateY(0);
     }
     30% {
-      transform: translateY(-20px);
+      transform: translateY(-12px);
     }
     50% {
       transform: translateY(0px);
@@ -101,23 +96,16 @@ h3 {
   background-color: rgba(255, 255, 255, 0.9%);
 }
 
-// Buttons
-.arrow {
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-}
-
-.container {
-  padding-right: 0;
-}
-
 // Projects page
+
+.project-padding {
+  padding: 10rem 0 2rem 0;
+}
+
 .project-container {
-  .project-text-container {
-    padding: 20% 0;
-  }
   .figma-container {
-    background-color: pink;
+    color: #fff;
+    background-color: #3048ea;
     width: 1140px;
     padding: 1%;
     text-align: right;

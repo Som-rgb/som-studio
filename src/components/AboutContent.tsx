@@ -3,11 +3,12 @@ import { Row, Col } from "react-bootstrap";
 import Som from "../images/Som.png";
 
 import styles from "../components/Statements.module.scss";
+import Linkedin from "../images/linkedin.svg";
 
 const AboutContent = () => {
   return (
     <>
-      <Row className={styles["main-container"]}>
+      <Row className="project-padding">
         <Col md={1}></Col>
         <Col md={5}>
           <Row>
@@ -28,7 +29,7 @@ const AboutContent = () => {
               Sorry, your browser does not support inline SVG.
             </svg>
           </Row>
-          <Row>
+          {/* <Row>
             <Col md={6}>
               <h3>2+</h3>
               <h4>Years of Experience</h4>
@@ -37,16 +38,29 @@ const AboutContent = () => {
               <h3>5</h3>
               <h4>Software projects</h4>
             </Col>
+          </Row> */}
+          <Row>
+            <p>
+              I am an experienced and well rounded Digital Designer that works
+              well with cross-functional teams to take ideas from concept to
+              execution. I approach projects with creativity and passion backed
+              by insights from a skill set rooted in UX, UI, information
+              architecture, agile methodologies and front-end code. Regardless
+              of the type of project, my approach prioritises users first, and
+              involves engaging them in an iterative design process that
+              welcomes consistent and constructive feedback.
+            </p>
+            <h4 className={styles["subtitle"]}>
+              Reach out to me!
+              <img src={Linkedin} alt="Linkedin Icon" />
+            </h4>
           </Row>
         </Col>
         <Col md={1}></Col>
         <Col md={3} className={styles["image-container"]}>
-          <img src={Som} alt="Girl frowning" className={styles["image"]} />
+          <img src={Som} alt="Sommer" className={styles["image"]} />
         </Col>
         <Col md={1}></Col>
-      </Row>
-      <Row>
-        <h4>A list of my experiences</h4>
       </Row>
     </>
   );

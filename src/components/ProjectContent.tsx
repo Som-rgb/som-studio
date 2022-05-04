@@ -23,16 +23,17 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
           <>
             <Container>
               <Row key={project.key} className={styles["top-container"]}>
-                <Col md={1}></Col>
-                <Col md={10}>
+                <Col md={2}></Col>
+                <Col md={8}>
                   <Row>
                     <Col md={4}>
-                      <h4 style={{ color: project.primary }}>0{project.key}</h4>
-                      <h2 style={{ color: project.primary }}>
-                        {project.title}
-                      </h2>
+                      <Row className={styles["project-title"]}>
+                        <h4>0{project.key}</h4>
+                        <h2>{project.title}</h2>
+                        <h5>{project.category}</h5>
+                      </Row>
 
-                      <Row>
+                      <Row className={styles["project-colors"]}>
                         <Col
                           md={2}
                           className={styles["project-color"]}
@@ -55,14 +56,6 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
                         ></Col>
                         <Col md={4}></Col>
                       </Row>
-                      <h3
-                        style={{
-                          color: project.primary,
-                          backgroundColor: project.secondary,
-                        }}
-                      >
-                        {project.category}
-                      </h3>
 
                       <h4>The Problem</h4>
                       <p>{project.problemBlurb}</p>
@@ -70,27 +63,25 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
                     <Col md={2}></Col>
                     <Col md={6}>
                       <img
-                        className={styles["project-top"]}
-                        src={project.image}
+                        className={styles["project-image"]}
+                        src={project.gif}
                         alt={project.title}
                       />
                     </Col>
                   </Row>
                 </Col>
-                <Col md={1}></Col>
-              </Row>
-
-              <Row className={styles["middle-container"]}>
-                <Col md={1}></Col>
-                <Col md={10}>
-                  <h4>Some things in here</h4>
-                </Col>
-                <Col md={1}></Col>
+                <Col md={2}></Col>
               </Row>
 
               <Row className={styles["bottom-container"]}>
-                <Col md={1}></Col>
-                <Col md={6}></Col>
+                <Col md={2}></Col>
+                <Col md={4}>
+                  <img
+                    className={styles["project-image"]}
+                    src={project.image}
+                    alt={project.title}
+                  />
+                </Col>
                 <Col md={2}></Col>
                 <Col md={2}>
                   <h4>The Solution</h4>
@@ -102,7 +93,7 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
                     </h4>
                   </Link>
                 </Col>
-                <Col md={1}></Col>
+                <Col md={2}></Col>
               </Row>
             </Container>
             <svg height="120px">
