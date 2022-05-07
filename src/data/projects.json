@@ -8,6 +8,7 @@
     "problemBlurb": "Increased production of bespoke robotics introduce higher amount of risks to industry. Developers must adhere to regulatory frameworks to reduce risks in the process. Understanding and implementing regulatory frameworks is diffcult due to lack of accessible and user-friendly resources. ",
     "solutionBlurb": "ROB is a web portal that eases the process for users to develop robotics by providing regulatory guidance with an ecosystem of pragmatic and user-friendly tools. ",
     "url": "/ROB",
+    "caseStudy": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDFkrQs7XqUFpFEMVVU3iG0%2FB2B%3Fpage-id%3D0%253A1%26node-id%3D21%253A1241%26viewport%3D241%252C48%252C0.35%26scaling%3Dcontain%26starting-point-node-id%3D21%253A1241%26hide-ui%3D1",
     "primary": "#031B87",
     "secondary": "#8CDCFF",
     "teritaryOne": "#77DBDD",

@@ -1,6 +1,6 @@
 import { Row, Col } from "react-bootstrap";
 
-import Som from "../images/Som.png";
+import Som from "../images/Solution.svg";
 
 import styles from "../components/Statements.module.scss";
 import Linkedin from "../images/linkedin.svg";

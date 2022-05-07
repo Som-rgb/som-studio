@@ -17,8 +17,8 @@ const SolutionStatement = () => {
         <Col md={5}>
           <Row>
             <h3>
-              A project needs some design love that is driven by user insights
-              and data points to inform decisions.
+              Your project needs some design love that is driven by user
+              insights and data points to inform decisions.
             </h3>
           </Row>
 

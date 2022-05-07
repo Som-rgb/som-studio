@@ -1,0 +1,14 @@
+@import "../scss/overrides";
+
+.banner-container {
+  width: 100%;
+  background-color: #9596ff;
+  color: white;
+  padding: 0.5% 4%;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: 10px;
+  }
+}

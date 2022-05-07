@@ -98,24 +98,22 @@ h3 {
 
 // Projects page
 
-.project-padding {
-  padding: 10rem 0 2rem 0;
-}
+// .project-padding {
+//   padding: 10rem 0 2rem 0;
+// }
 
-.project-container {
-  .figma-container {
-    color: #fff;
-    background-color: #3048ea;
-    width: 1140px;
-    padding: 1%;
-    text-align: right;
-  }
-  iframe {
-    height: 660px;
-    width: 1140px;
-  }
+// .project-container {
+//   .figma-container {
+//     color: #fff;
+//     background-color: #3048ea;
+//     padding: 1%;
+//     text-align: right;
+//   }
+// }
+iframe {
+  height: 40rem;
+  width: 100%;
 }
-
 svg {
   padding: 2% 0;
 }

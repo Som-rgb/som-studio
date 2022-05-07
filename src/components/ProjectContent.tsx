@@ -72,8 +72,13 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
                 </Col>
                 <Col md={2}></Col>
               </Row>
+              <iframe
+                // style="border: 1px solid rgba(0, 0, 0, 0.1);"
+                className="iframe"
+                src={project.caseStudy}
+              ></iframe>
 
-              <Row className={styles["bottom-container"]}>
+              {/* <Row className={styles["bottom-container"]}>
                 <Col md={2}></Col>
                 <Col md={4}>
                   <img
@@ -94,7 +99,7 @@ const ProjectContent: React.FC<Params> = (projectFilter) => {
                   </Link>
                 </Col>
                 <Col md={2}></Col>
-              </Row>
+              </Row> */}
             </Container>
             <svg height="120px">
               <line
