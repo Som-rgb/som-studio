@@ -44,7 +44,13 @@ const Home = () => {
         </svg>
       </Row>
       <Row>
-        <ProjectContent projectFilter="Web App Case Study" />
+        <ProjectContent projectFilter="Product development" />
+      </Row>
+      <Row>
+        <ProjectContent projectFilter="User interface" />
+      </Row>
+      <Row>
+        <ProjectContent projectFilter="Design system" />
       </Row>
     </>
   );

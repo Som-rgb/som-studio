@@ -3,7 +3,6 @@ import { Row, Col } from "react-bootstrap";
 import Som from "../images/Solution.svg";
 
 import styles from "../components/Statements.module.scss";
-import Linkedin from "../images/linkedin.svg";
 
 const AboutContent = () => {
   return (
@@ -29,16 +28,7 @@ const AboutContent = () => {
               Sorry, your browser does not support inline SVG.
             </svg>
           </Row>
-          {/* <Row>
-            <Col md={6}>
-              <h3>2+</h3>
-              <h4>Years of Experience</h4>
-            </Col>
-            <Col md={6}>
-              <h3>5</h3>
-              <h4>Software projects</h4>
-            </Col>
-          </Row> */}
+
           <Row>
             <p>
               I am an experienced and well rounded Digital Designer that works
@@ -50,9 +40,10 @@ const AboutContent = () => {
               involves engaging them in an iterative design process that
               welcomes consistent and constructive feedback.
             </p>
-            <h4 className={styles["subtitle"]}>
-              Reach out to me!
-              <img src={Linkedin} alt="Linkedin Icon" />
+            <h4>
+              <a href="https://www.linkedin.com/in/sommerdeo/">
+                Reach out to me!
+              </a>
             </h4>
           </Row>
         </Col>

@@ -1,17 +1,29 @@
 [
   {
     "key": "1",
-    "category": "Web App Case Study",
-    "title": "ROB",
-    "image": "./images/Mockups/ROB.jpg",
-    "gif": "./images/Mockups/ROB.gif",
-    "problemBlurb": "Increased production of bespoke robotics introduce higher amount of risks to industry. Developers must adhere to regulatory frameworks to reduce risks in the process. Understanding and implementing regulatory frameworks is diffcult due to lack of accessible and user-friendly resources. ",
-    "solutionBlurb": "ROB is a web portal that eases the process for users to develop robotics by providing regulatory guidance with an ecosystem of pragmatic and user-friendly tools. ",
-    "url": "/ROB",
-    "caseStudy": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDFkrQs7XqUFpFEMVVU3iG0%2FB2B%3Fpage-id%3D0%253A1%26node-id%3D21%253A1241%26viewport%3D241%252C48%252C0.35%26scaling%3Dcontain%26starting-point-node-id%3D21%253A1241%26hide-ui%3D1",
-    "primary": "#031B87",
-    "secondary": "#8CDCFF",
-    "teritaryOne": "#77DBDD",
-    "teritaryTwo": "#797FEE"
+    "category": "Product development",
+    "title": "RASG",
+    "image": "./images/Mockups/ROB.png",
+    "description": "RASG is a web portal that eases the process for users to develop robotics by providing regulatory guidance with an ecosystem of pragmatic and user-friendly tools. ",
+    "link": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDFkrQs7XqUFpFEMVVU3iG0%2FB2B%3Fpage-id%3D0%253A1%26node-id%3D21%253A1241%26viewport%3D241%252C48%252C0.35%26scaling%3Dcontain%26starting-point-node-id%3D21%253A1241%26hide-ui%3D1",
+    "linkTitle": "Read full case study"
+  },
+  {
+    "key": "2",
+    "category": "User interface",
+    "title": "Recipe Randomiser",
+    "image": "./images/Mockups/RecipeRandomiser.png",
+    "description": "Recipe Randomiser helps you choose a recipe to cook based off of the ingredients in your pantry",
+    "link": "https://www.figma.com/proto/cONLxpPsW9HpluFb7jhUHM/Recipe-Som?page-id=0%3A1&node-id=30%3A390&viewport=-380%2C-1553%2C0.36&scaling=scale-down&starting-point-node-id=30%3A390",
+    "linkTitle": "View the interface"
+  },
+  {
+    "key": "3",
+    "category": "Design system",
+    "title": "Company Maturity Survey",
+    "image": "./images/Mockups/Survey.png",
+    "description": "A survey tool that assesses a companies agile maturity to enable coaching and growth",
+    "link": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDFkrQs7XqUFpFEMVVU3iG0%2FB2B%3Fpage-id%3D0%253A1%26node-id%3D21%253A1241%26viewport%3D241%252C48%252C0.35%26scaling%3Dcontain%26starting-point-node-id%3D21%253A1241%26hide-ui%3D1",
+    "linkTitle": "View the file"
   }
 ]
